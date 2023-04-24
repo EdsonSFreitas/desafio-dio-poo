@@ -1,12 +1,12 @@
-# desafio-dio-poo
-
-   💎 O objetivo principal desse repositório é colocar em prática umas das principais ferramentas da OO: <strong>ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO,</strong> através de um projeto Java. </p>
+💎 O objetivo principal deste repositório foi colocar em prática algumas das principais ferramentas da Orientação a Objetos: <strong>abstração, encapsulamento, herança e polimorfismo</strong>, através de um projeto Java desenvolvido durante o bootcamp DIO.
 
 <h2> 👣 Passo-a-Passo</h2>
 <p>
-<strong>	1.</strong> Vamos ABSTRAIR o DOMÍNIO Bootcamp e MODELAR seus ATRIBUTOS E MÉTODOS <br>
-<strong>	2.</strong> Criaremos as CLASSES: Bootcamp, Cursos, Mentorias e Devs e vamos relaciona-las <br>
-<strong>	3.</strong> As CLASSES Curso, Mentoria e Devs também serão MODELADOS, ou seja, criaremos seus ATRIBUTOS E MÉTODOS <br> 
-<strong>	4.</strong> Para que o código fique mais legível e de fácil manutenção, iremos utilizar de algumas das ferramentas que o PARADIGMA DE ORIENTAÇÃO A OBJETOS (POO) nos oferece: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO <br>
-<strong>	5.</strong> E para representar CLASSES que foram criadas e relacionadas, iremos transforma-las em OBJETOS<br>
+<strong>	1.</strong> Abstrai o domínio Bootcamp e modelei seus atributos e métodos. <br>
+<strong>	2.</strong> Criei as classes Bootcamp, Cursos, Mentorias e Devs e relacionei-as. <br>
+<strong>	3.</strong> Modelei as classes Curso, Mentoria e Devs, ou seja, criei seus atributos e métodos. <br> 
+<strong>	4.</strong> Utilizei algumas das ferramentas que o paradigma de Orientação a Objetos nos oferece, como abstração, encapsulamento, herança e polimorfismo, para deixar o código mais legível e de fácil manutenção. <br>
+<strong>	5.</strong> Para representar as classes criadas e relacionadas, transformei-as em objetos. <br>
 </p>
+
+Esse repositório está em constante atualização e pretendo adicionar teste unitários usando Junit.
