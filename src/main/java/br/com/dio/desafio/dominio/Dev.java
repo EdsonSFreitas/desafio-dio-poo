@@ -8,14 +8,14 @@ import java.util.*;
  * {@code @project} desafio-dio-poo
  */
 public class Dev {
-    private String nome;
     private final Set<Conteudo> contInscritos = new LinkedHashSet<>();
     private final Set<Conteudo> contConcluidos = new LinkedHashSet<>();
+    private String nome;
 
     public double calcularTotalXp() {
         Iterator<Conteudo> iterator = this.contConcluidos.iterator();
         double soma = 0;
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             double next = iterator.next().calcularXp();
             soma += next;
         }
@@ -23,6 +23,9 @@ public class Dev {
     }
 
     public void inscreverBootcamp(Bootcamp bootcamp) {
+        if (bootcamp == null) {
+            throw new IllegalArgumentException("O conteúdo não pode ser nulo.");
+        }
         this.contInscritos.addAll(bootcamp.getConteudos());
         bootcamp.getDesenvolvedoresInscritos().add(this);
     }
@@ -43,12 +46,17 @@ public class Dev {
     public void progredir() {
         Optional<Conteudo> conteudo = this.contInscritos.stream()
                 .findFirst();
+        if (conteudo == null) {
+            throw new IllegalArgumentException("O conteúdo não pode ser nulo.");
+        }
+
         if (conteudo.isPresent()) {
             this.contConcluidos.add(conteudo.get());
-            this.contInscritos.remove(conteudo.get());
-        } else {
-            System.err.println("Nenhum conteúdo encontrado para sua matricula");
+            this.contInscritos.removeIf(c -> c.equals(conteudo.get()));
+        }else{
+            throw new IllegalArgumentException("Nenhum conteúdo encontrado para sua matricula");
         }
+
     }
 
     public String getNome() {
@@ -60,11 +68,12 @@ public class Dev {
     }
 
     public Set<Conteudo> getContInscritos() {
-        return contInscritos;
+        return new LinkedHashSet<>(this.contInscritos);
     }
 
     public Set<Conteudo> getContConcluidos() {
-        return contConcluidos;
+
+        return new LinkedHashSet<>(this.contConcluidos);
     }
 
 }

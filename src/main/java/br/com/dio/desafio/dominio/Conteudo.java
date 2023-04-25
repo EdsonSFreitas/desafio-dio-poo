@@ -30,6 +30,9 @@ public abstract class Conteudo {
     public abstract double calcularXp();
 
     public @NotNull String getTitulo() {
+        if (titulo == null) {
+            return "Título não disponível";
+        }
         return titulo;
     }
 
