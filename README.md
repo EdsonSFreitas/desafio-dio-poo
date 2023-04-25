@@ -1,4 +1,4 @@
-💎 O objetivo principal deste repositório foi colocar em prática algumas das principais ferramentas da Orientação a Objetos: <strong>abstração, encapsulamento, herança e polimorfismo</strong>, através de um projeto Java desenvolvido durante o bootcamp DIO.
+💎 O objetivo principal deste repositório foi colocar em prática algumas das principais ferramentas da Orientação a Objetos que aprendi: <strong>abstração, encapsulamento, herança e polimorfismo</strong>, através de um projeto Java desenvolvido durante o bootcamp DIO. Fiz diversas alterações e melhorias.
 
 <h2> 👣 Passo-a-Passo</h2>
 <p>
@@ -9,4 +9,11 @@
 <strong>	5.</strong> Para representar as classes criadas e relacionadas, transformei-as em objetos. <br>
 </p>
 
-Esse repositório está em atualização e pretendo adicionar teste unitários usando Junit.
+<h2> Melhorias realizadas: </h2>
+<p>
+<strong>	1.</strong> Adicionei testes unitários usando Junit. <br>
+<strong>	2.</strong> Adicionei diversos tipos de tratamento de exceções. <br>
+<strong>	3.</strong> Realizei diversos ajustes com objetivo de explorar recursos mais avançados do que o proposto e para fins de aprendizado. <br> 
+</p>
+
+Esse desafio é baseado no repositório https://github.com/cami-la/desafio-poo-dio
