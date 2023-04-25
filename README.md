@@ -13,7 +13,7 @@
 <p>
 <strong>	1.</strong> Adicionei testes unitários usando Junit. <br>
 <strong>	2.</strong> Adicionei diversos tipos de tratamento de exceções. <br>
-<strong>	3.</strong> Realizei diversos ajustes com objetivo de explorar recursos mais avançados do que o proposto e para fins de aprendizado. <br> 
+<strong>	3.</strong> Realizei diversos ajustes com objetivo de explorar recursos mais avançados do que o proposto para fins de aprendizado. <br> 
 </p>
 
 Esse desafio é baseado no repositório https://github.com/cami-la/desafio-poo-dio
